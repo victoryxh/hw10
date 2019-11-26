@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>3D Playground</title>
+    <style>
+        html,
+        body {
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        #c {
+            position: absolute;
+            width: 100%;
+            height: 100%
+        }
+
+        #control {
+            position: absolute;
+            top: 40px;
+            left: 40px;
+        }
+    </style>
+    <script src="js/three.js"></script>
+    <script src="js/OrbitControls.js"></script>
+</head>
+
+<body>
+    <div id='c'></div>
+    <div id='control'>
+        <button id="sCar">Start the Car Engine</button>
+        <button id="bCar">Move Backwards</button>
+        <button id="cCar">Get A New Look!</button>
+        <br>
+        <br>
+        <button id="sTrain">Start the Train Engine</button>
+        <button id="bTrain">Move Backwards</button>
+        <button id="cTrain">Get A New Look!</button>
+        <br>
+        <br>
+        <button id="fSatte">Fly the Sattellite</button>
+        <button id="bSatte">Move Backwards</button>
+        <button id="cSatte">Get A New Look!</button>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
